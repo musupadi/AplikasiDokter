@@ -329,15 +329,117 @@ public class DiagnosaActivity extends AppCompatActivity {
                     goInput.putExtra("LIST", "Data Pertanyaan");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
-                else if (Medis.equals("G12a")) {
+                else if (Medis.equals("G15a")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
-                    goInput.putExtra("MEDIS", "G15a");
-                    goInput.putExtra("GEJALA", "Gejala Ke-15a");
+                    goInput.putExtra("MEDIS", "G21");
+                    goInput.putExtra("GEJALA", "Gejala Ke-21");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G21")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G30");
+                    goInput.putExtra("GEJALA", "Gejala Ke-30");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G31")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p10));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G16b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p4));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G19a")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p1));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G5b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G15b");
+                    goInput.putExtra("GEJALA", "Gejala Ke-15b");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G15b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p9));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G6c")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G10b");
+                    goInput.putExtra("GEJALA", "Gejala Ke-10b");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G10b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G34");
+                    goInput.putExtra("GEJALA", "Gejala Ke-34");
                     goInput.putExtra("LIST", "Data Pertanyaan");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
 
-         }});
+                else if (Medis.equals("G34")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G36");
+                    goInput.putExtra("GEJALA", "Gejala Ke-36");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G36")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p13));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G7d")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G12b");
+                    goInput.putExtra("GEJALA", "Gejala Ke-12b");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G12b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p11));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G10c")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G17a");
+                    goInput.putExtra("GEJALA", "Gejala Ke-17a");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("17a")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p14));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("12c")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p8));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("17b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p23));
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+
+                else if (Medis.equals("G20a")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G35");
+                    goInput.putExtra("GEJALA", "Gejala Ke-35");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+            }});
         tidak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -436,8 +538,69 @@ public class DiagnosaActivity extends AppCompatActivity {
                     goInput.putExtra("LIST", "Data Pertanyaan");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
-
-
+                else if (Medis.equals("G12a")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G16b");
+                    goInput.putExtra("GEJALA", "Gejala Ke-16b");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G16b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G19a");
+                    goInput.putExtra("GEJALA", "Gejala Ke-19a");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G3b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G5b");
+                    goInput.putExtra("GEJALA", "Gejala Ke-5b");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G5b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G6c");
+                    goInput.putExtra("GEJALA", "Gejala Ke-6c");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G6c")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G7d");
+                    goInput.putExtra("GEJALA", "Gejala Ke-7d");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G7d")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G10c");
+                    goInput.putExtra("GEJALA", "Gejala Ke-10c");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G10c")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G12c");
+                    goInput.putExtra("GEJALA", "Gejala Ke-12c");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G12c")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G17b");
+                    goInput.putExtra("GEJALA", "Gejala Ke-17b");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
+                else if (Medis.equals("G17b")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
+                    goInput.putExtra("MEDIS", "G20a");
+                    goInput.putExtra("GEJALA", "Gejala Ke-20a");
+                    goInput.putExtra("LIST", "Data Pertanyaan");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
             }});
     }}
 

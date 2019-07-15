@@ -71,6 +71,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 }else if(Medis.equals("G10")){
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR",String.valueOf(R.drawable.p22));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Tonsilitis!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if(Medis.equals("G4")) {

@@ -4,7 +4,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetroServer {
-    private static final String base_url = "http://aplikasisdn07.000webhostapp.com/AplikasiDokter/";
+    private static final String base_url = "https://dokterthtapps.000webhostapp.com/DokterTHT/";
     private static Retrofit retrofit;
 
     public static Retrofit getClient(){

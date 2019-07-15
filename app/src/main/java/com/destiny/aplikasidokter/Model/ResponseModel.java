@@ -5,6 +5,7 @@ import java.util.List;
 public class ResponseModel {
     String response,kode;
     String username,password,nama,umur;
+    String medis,gejala,pertanyaan;
     List<DataModel> result;
 
     public String getResponse() {
@@ -47,6 +48,15 @@ public class ResponseModel {
         this.nama = nama;
     }
 
+
+    public List<DataModel> getResult() {
+        return result;
+    }
+
+    public void setResult(List<DataModel> result) {
+        this.result = result;
+    }
+
     public String getUmur() {
         return umur;
     }
@@ -55,11 +65,11 @@ public class ResponseModel {
         this.umur = umur;
     }
 
-    public List<DataModel> getResult() {
-        return result;
+    public String getMedis() {
+        return medis;
     }
 
-    public void setResult(List<DataModel> result) {
-        this.result = result;
+    public void setMedis(String medis) {
+        this.medis = medis;
     }
 }

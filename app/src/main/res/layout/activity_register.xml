@@ -16,7 +16,8 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="10dp"
-        android:background="@drawable/whitebackground">
+        android:background="@drawable/whitebackground"
+        android:alpha="0.8">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,14 +25,14 @@
             android:textSize="25dp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="10dp"/>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:textColorHint="@color/colorAccent">
+            android:textColorHint="@color/colorPrimaryDark">
 
             <EditText
                 android:id="@+id/etUsername"
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:textColorHint="@color/colorAccent"
+            android:textColorHint="@color/colorPrimaryDark"
             app:passwordToggleEnabled="true">
 
             <EditText
@@ -65,7 +66,7 @@
             android:layout_height="wrap_content"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:textColorHint="@color/colorAccent">
+            android:textColorHint="@color/colorPrimaryDark">
 
             <EditText
                 android:id="@+id/etNama"
@@ -81,7 +82,7 @@
             android:layout_height="wrap_content"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:textColorHint="@color/colorAccent">
+            android:textColorHint="@color/colorPrimaryDark">
 
             <EditText
                 android:id="@+id/etUmur"
@@ -107,7 +108,7 @@
             android:layout_marginLeft="20dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:id="@+id/btnKembali"
+            android:id="@+id/btnLogin"
             android:text="Kembali" />
 
 

@@ -2,6 +2,7 @@ package com.destiny.aplikasidokter.Model;
 
 public class DataModel {
     String username,password,nama,umur;
+    String medis,gejala,pertanyaan;
 
     public String getUsername() {
         return username;
@@ -33,5 +34,29 @@ public class DataModel {
 
     public void setUmur(String umur) {
         this.umur = umur;
+    }
+
+    public String getMedis() {
+        return medis;
+    }
+
+    public void setMedis(String medis) {
+        this.medis = medis;
+    }
+
+    public String getGejala() {
+        return gejala;
+    }
+
+    public void setGejala(String gejala) {
+        this.gejala = gejala;
+    }
+
+    public String getPertanyaan() {
+        return pertanyaan;
+    }
+
+    public void setPertanyaan(String pertanyaan) {
+        this.pertanyaan = pertanyaan;
     }
 }

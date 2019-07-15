@@ -37,6 +37,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 CheckLogin();
+//                CheckLoginIntent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                startActivity(intent);
             }
         });
         register.setOnClickListener(new View.OnClickListener() {
@@ -85,12 +87,15 @@ public class LoginActivity extends AppCompatActivity {
                     SessionLoginSucces(username,password);
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
+                }else{
+                    Toast.makeText(LoginActivity.this,"Username Atau Password Salah",Toast.LENGTH_SHORT).show();
                 }
             }
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(LoginActivity.this,"Username Atau Password Salah",Toast.LENGTH_SHORT).show();
+                pd.hide();
+                Toast.makeText(LoginActivity.this,"Data Error",Toast.LENGTH_SHORT).show();
             }
         });
     }

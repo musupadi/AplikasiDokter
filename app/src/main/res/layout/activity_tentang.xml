@@ -1,23 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.Tentang"
     android:background="@drawable/bluebackground"
     android:padding="20dp">
-
-    <RelativeLayout
-        android:background="@color/colorWhite"
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.2">
-
-    </RelativeLayout>
+        android:src="@color/colorWhite"
+        android:alpha="0.3"
+        />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:text="Tentang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="4.5"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="3"
+            android:src="@drawable/logo"
+            />
+        <TextView
+            android:text="Dokter THT adalah aplikasi yang digunakan untuk membantu pengguna mendiagnosa THT (Telinga, hidung, tenggorokan) dan juga cara menanggulangi dan mencegah penyakit THT (Telinga, hidung, tenggorokan) sebelum melakukan pemeriksaan fisik.
+Aplikasi ini diharapkan bermanfaat untuk dijadikan sebagai sumber informasi dan pengetahuan dalam menjawab permasalahan – permasalahan yang terjadi tentang penyakit THT (Telinga, hidung, tenggorokan)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="4.5"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="bottom">
+
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+
+
+</RelativeLayout>

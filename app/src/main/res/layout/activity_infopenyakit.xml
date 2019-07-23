@@ -6,10 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Activity.infopenyakit"
     android:orientation="vertical">
-
-
-
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/listview"
         android:layout_width="match_parent"

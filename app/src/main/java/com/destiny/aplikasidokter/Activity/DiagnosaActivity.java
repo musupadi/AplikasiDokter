@@ -116,6 +116,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G12")){
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR",String.valueOf(R.drawable.p20));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Sinusitis Sfeinodais!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G17")) {
@@ -135,6 +136,7 @@ public class DiagnosaActivity extends AppCompatActivity {
             else if(Medis.equals("G27")){
                 Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                 goInput.putExtra("GAMBAR",String.valueOf(R.drawable.p18));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Sinusitis Etmoidalis!");
                 DiagnosaActivity.this.startActivities(new Intent[]{goInput});
             }else if (Medis.equals("G7a")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
@@ -157,6 +159,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 } else if(Medis.equals("G22")){
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR",String.valueOf(R.drawable.p2));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Abases Peritonsiler!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }else if (Medis.equals("G3a")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, DiagnosaActivity.class);
@@ -181,7 +184,8 @@ public class DiagnosaActivity extends AppCompatActivity {
 
                 }else if (Medis.equals("G14a")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
-                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p16));
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p6));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Faringistis!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});}
 
                 else if (Medis.equals("G14b")) {
@@ -203,6 +207,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G37")){
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR",String.valueOf(R.drawable.p12));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Laringitis!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G5a")) {
@@ -236,6 +241,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G37")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p5));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Deviasi Septum!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G6a")) {
@@ -255,6 +261,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G32")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p15));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Otitis Media Akut!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G2a")) {
@@ -267,6 +274,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G6b")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p3));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Barotitis Media!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G20")) {
@@ -279,6 +287,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G38")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p21));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Tumor Syaraf Pendengaran!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G3b")) {
@@ -328,6 +337,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if(Medis.equals("G24")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p7));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Kanker Laring!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G12a")) {
@@ -361,16 +371,19 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if (Medis.equals("G31")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p10));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Kanker Leher dan Kepala!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G16b")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p4));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Contact Uclers!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G19a")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p1));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Abses Parafaringeal!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G5b")) {
@@ -383,6 +396,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if (Medis.equals("G15b")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p9));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Kanker Nasofaring!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G6c")) {
@@ -410,6 +424,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if (Medis.equals("G36")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p13));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Meniere!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G7d")) {
@@ -422,6 +437,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if (Medis.equals("G12b")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p11));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Kanker Tonsil!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G10c")) {
@@ -434,16 +450,19 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if (Medis.equals("17a")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p14));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Neuronitis Vestibularis!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("12c")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p8));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Kanker Metastatik!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("17b")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p23));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Vertigo Postular!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
 
@@ -454,6 +473,12 @@ public class DiagnosaActivity extends AppCompatActivity {
                     goInput.putExtra("LIST", "Apakah telinga Anda berdenging?");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
+                else if (Medis.equals("G35")) {
+                    Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
+                    goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p16));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Otosclerosis!");
+                    DiagnosaActivity.this.startActivities(new Intent[]{goInput});
+                }
             }});
         tidak.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -461,6 +486,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 if (Medis.equals("G39")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p17));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Sakit Batuk!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G7")) {
@@ -488,6 +514,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 else if (Medis.equals("G26")) {
                     Intent goInput = new Intent(DiagnosaActivity.this, HasilDiagnosaActivity.class);
                     goInput.putExtra("GAMBAR", String.valueOf(R.drawable.p19));
+                    goInput.putExtra("DIAGNOSA","Anda Terdiagnosa Sinusitis Frontalis!");
                     DiagnosaActivity.this.startActivities(new Intent[]{goInput});
                 }
                 else if (Medis.equals("G4")) {

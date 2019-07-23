@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent goInput = new Intent(MainActivity.this, DiagnosaActivity.class);
                 goInput.putExtra("MEDIS", "G1");
                 goInput.putExtra("GEJALA", "Gejala Pertama");
-                goInput.putExtra("LIST", "Pertanyaan Pertama");
+                goInput.putExtra("LIST", "Apakah Anda Demam ?");
                 MainActivity.this.startActivities(new Intent[]{goInput});
             }
         });

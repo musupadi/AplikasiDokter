@@ -2,6 +2,7 @@ package com.destiny.aplikasidokter.Activity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +46,9 @@ public class HasilDiagnosaActivity extends AppCompatActivity {
         Intent data = getIntent();
         final String Gambar = data.getStringExtra("GAMBAR");
         String Diagnosa = data.getStringExtra("DIAGNOSA");
+        String Suara = data.getStringExtra("SUARA");
+        final MediaPlayer SuaraMe = MediaPlayer.create(HasilDiagnosaActivity.this,Integer.parseInt(Suara));
+        SuaraMe.start();
         diagnosa.setText(Diagnosa);
         ivGambar.setImageResource(Integer.parseInt(Gambar));
         pList.addAll(ModelData.getListData());
